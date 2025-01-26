@@ -15,9 +15,9 @@ Currently, I'm associated to <a href = "https://ui.iit.cnr.it/en/">Ubiquitous In
 * <b>Neurosymbolic AI</b>
 * <b>Reinforcement Learning<b>
 
-In a summary, the main goal of my research is to enhance human-AI in heterogenous teams to accomplish difficult tasks based on a combination of perception and reasoning skills (e.g. autonomous driving). The study explores neurosymbolic approaches as a better alternative to only-neural frameworks (so called "black box") in order to achieve model explainability, data efficiency and better generalization.
+In a summary, the main goal of my research is to enhance human-AI collaboration in heterogenous teams to accomplish difficult tasks based on a combination of perception and reasoning skills (e.g. autonomous driving). The study explores neurosymbolic approaches as a better alternative to only-neural frameworks (so called "black box") in order to achieve model explainability, training efficiency and better generalization.
 
-If you are an AI practitioner in this or a similar area, feel free to contact me on connect on <a href = "https://www.linkedin.com/in/vitoscaraggi/">Linkedin</a>.
+If you are an AI practitioner in this or a similar area, feel free to contact me via e-mail on connect on <a href = "https://www.linkedin.com/in/vitoscaraggi/">Linkedin</a>.
 
 Finally, a motivational quote for you, researcher of whatever:
 

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Short CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,29 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Education (it's not over yet)
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD candidate in Italian <a href = "https://phd-ai-society.di.unipi.it/en/">National Program 'AI for Society'</a>
+<br> <a href = "https://ui.iit.cnr.it/en/"> Ubiquitous Internet </a> - <a href = "https://www.iit.cnr.it/en/"> IIT-CNR </a>, <a href = "https://www.unipi.it/index.php/english"> University of Pisa</a>, <a href = "https://www.imtlucca.it/en">IMT School of Lucca</a> 
+<br> <b> Nov 2024 - now, Pisa (Italy)</b>
+* M.S. in Computer and Automation Engineering
+<br> <a href = "https://www.univpm.it/Entra/Universita_Politecnica_delle_Marche_Home/L/1"> Polytechnic University of Marche </a>
+<br> Sept 2022 - Oct 2024, Ancona (Italy)
+* B.S. in Computer and Automation Engineering
+<br> <a href = "https://www.univpm.it/Entra/Universita_Politecnica_delle_Marche_Home/L/1"> Polytechnic University of Marche </a>
+<br> Sept 2019 - Oct 2022, Ancona (Italy)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+My theses
+====== 
+* <a href = "https://tesi.univpm.it/handle/20.500.12075/19225">A novel Logic Tensor Networks framework for addressing graph-based problems</a>
+<br> Proposing a neurosymbolic FOL-based approach including Logic Tensor Networks (LTNs) and Graph Convolutional Neural Networks (GCNs) for tackling classification problems within graphs
+* <a href = "https://tesi.univpm.it/handle/20.500.12075/10904">Design and implementation of blockchain protocols for biometric identification</a>
+<br> Working on RSA/ECDSA signature protocols for enabling biometric recognition in a blockchain
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Skills according to self-assessment (believe it or not)
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Languages (in order of proficiency): Italian, Python, English, Javascript/Typescript, C/C++, Prolog, Java<br>
+<b>(Recall: HTML does not count as a programming language)</b>
+* Made stuff with docker/docker-compose
+* Huge fan of competitive programming
+* Quite immune to sleep during hackathons

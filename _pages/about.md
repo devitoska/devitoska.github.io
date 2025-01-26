@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first-year Phd Student in the National 'AI for Society' at University of Pisa, Italy.
+I'm a first-year Phd Student in the Italian National Program 'AI for Society' at University of Pisa, Italy.
 
 Currently, I'm associated to <a href = "https://ui.iit.cnr.it/en/">Ubiquitous Internet</a> Lab at IIT-CNR in Pisa, working on the following research topics:
 

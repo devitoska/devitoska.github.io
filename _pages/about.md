@@ -19,13 +19,9 @@ In a summary, the main goal of my research is to enhance human-AI collaboration 
 
 If you are an AI practitioner in this or a similar area, feel free to contact me via e-mail on connect on <a href = "https://www.linkedin.com/in/vitoscaraggi/">Linkedin</a>.
 
-Finally, a motivational quote for you, researcher of whatever:
+Finally, take a look at <u>today's daily quote</u>:
 
-"
-Nobody ever figures out what life is all about,
-and it doesn’t matter.
-Explore the world.
-Nearly everything is really interesting
-if you go into it deeply enough.
-"
----<cite>Richard P. Feynman</cite>
+<div class = "quote">
+<div id = "q_text"></div>
+<div id = "q_author" class = "quote_author"></div>
+</div>

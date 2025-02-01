@@ -23,9 +23,9 @@ Education (it's not over yet)
 
 My theses
 ====== 
-* <a href = "https://tesi.univpm.it/handle/20.500.12075/19225">A novel Logic Tensor Networks framework for addressing graph-based problems</a>
+* <b>Master Degree</b>: <a href = "https://tesi.univpm.it/handle/20.500.12075/19225">A novel Logic Tensor Networks framework for addressing graph-based problems</a>
 <br> Proposing a neurosymbolic FOL-based approach including Logic Tensor Networks (LTNs) and Graph Convolutional Neural Networks (GCNs) for tackling classification problems within graphs
-* <a href = "https://tesi.univpm.it/handle/20.500.12075/10904">Design and implementation of blockchain protocols for biometric identification</a>
+* <b>Bachelor Degree</b>: <a href = "https://tesi.univpm.it/handle/20.500.12075/10904">Design and implementation of blockchain protocols for biometric identification</a>
 <br> Working on RSA/ECDSA signature protocols for enabling biometric recognition in a blockchain
 
 Skills according to self-assessment (believe it or not)

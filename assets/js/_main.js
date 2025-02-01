@@ -3,6 +3,7 @@
    ========================================================================== */
 
 $(document).ready(function(){
+  console.log("ready");
   // These should be the same as the settings in _variables.scss
   scssLarge = 925; // pixels
 

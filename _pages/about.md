@@ -25,4 +25,5 @@ Finally, take a look at my suggested daily quote for today:
 <hr class = "quote_line">
 <div id = "q_text"></div>
 <div id = "q_author" class = "quote_author"></div>
+<div class = "quote_bottom"> <hr class = "quote_line"> </div>
 </div>

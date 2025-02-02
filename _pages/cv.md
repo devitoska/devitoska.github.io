@@ -52,7 +52,7 @@ Skills according to self-assessment (believe it or not)
 Miscellany
 ======
 * My very first programming language was Visual Basic in the early 2010s
-* I will never join the "dark side" also called frontend development
-* <a href = "https://en.wikipedia.org/wiki/Brainfuck">Brainfuck</a> Is All You Need
+* I will never join the "dark side" also called frontend development (except for this site)
+* <a href = "https://en.wikipedia.org/wiki/Brainfuck">Brainfuck</a> Is All You Need for programming (Turing-complete)
 * Huge fan of competitive programming, computational complexity analysis,  operation research
 * Quite immune to sleep during hackathons

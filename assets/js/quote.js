@@ -1,7 +1,6 @@
 //quote script
 // ajax get
 $(document).ready(function(){
-    console.log("quote");
     url = "https://vitoscaraggi.it/quote\/"
     $.ajax({
     url: url,

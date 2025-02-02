@@ -7,8 +7,24 @@ html {
   min-height: 100%;
 }
 
+.not_found{
+  display: flex-col;
+  align-items: center;
+  text-align: center;
+}
+
+.not_found_img{
+  margin: 0 auto;
+  width: 480px;
+  height: 480px;
+}
+
 .emoji{
   font-size: 30px;
+}
+
+.devicon{
+  width: 1.7em;
 }
 
 /*
@@ -31,6 +47,10 @@ html {
   display: flex;
   color: $orange;
   justify-content: flex-end;
+}
+
+.quote_line{
+  width: 55%;
 }
 
 /*

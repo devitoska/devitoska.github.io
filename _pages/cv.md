@@ -30,8 +30,29 @@ My theses
 
 Skills according to self-assessment (believe it or not)
 ======
-* Languages (in order of proficiency): Italian, Python, English, Javascript/Typescript, C/C++, Prolog, Java<br>
+* Languages <b>(in order of proficiency)</b>: Italian <span class="fi fi-it devicon"></span>, Python 
+            <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+          , English <span class="fi fi-gb devicon"></span>, Javascript/Typescript <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <img class ="devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+          , C/C++ 
+            <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+          , Prolog 
+            <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prolog/prolog-original.svg" />
+          , PHP 
+            <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+          , Matlab 
+            <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" />
+          , Java 
+            <img class = "devicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+          <br>
 <b>(Recall: HTML does not count as a programming language)</b>
-* Made stuff with docker/docker-compose
-* Huge fan of competitive programming
+* Python libraries I used to know <b>(now Github Copilot is on it)</b>: pandas, scipy, numpy, pytorch, tensorflow, torch-geometric
+* Made stuff with docker/docker compose, node.js, mysql, mongodb
+
+Miscellany
+======
+* My very first programming language was Visual Basic in the early 2010s
+* I will never join the "dark side" also called frontend development
+* <a href = "https://en.wikipedia.org/wiki/Brainfuck">Brainfuck</a> Is All You Need
+* Huge fan of competitive programming, computational complexity analysis,  operation research
 * Quite immune to sleep during hackathons

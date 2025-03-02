@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, Vito here <span class = 'emoji'>:wave:</span>"
+title: "Hi, Vito here!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,7 +11,7 @@ I'm a first-year Phd Student in the Italian National Program 'AI for Society' at
 
 Currently, I'm a research fellow in the <a href = "https://ui.iit.cnr.it/en/">Ubiquitous Internet</a> Lab at IIT-CNR in Pisa, working on the following topics:
 
-* <b>Hybrid Intelligence</b>
+* <b>Human-AI systems</b>
 * <b>Neurosymbolic AI</b>
 * <b>Reinforcement Learning<b>
 

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Short CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+See my <a class = "btn btn--inverse" style = "text-decoration:none" href = "/files/cv_vito_scaraggi.pdf">Full CV</a> or read the summary below.
 
 Education (it's not over yet)
 ======
@@ -54,5 +56,5 @@ Miscellany
 * My very first programming language was Visual Basic in the early 2010s
 * I will never join the "dark side" also called frontend development (except for this site)
 * <a href = "https://en.wikipedia.org/wiki/Brainfuck">Brainfuck</a> Is All You Need for programming (Turing-complete)
-* Huge fan of competitive programming, computational complexity analysis,  operation research
+* Huge fan of competitive programming, computational complexity analysis,  operations research
 * Quite immune to sleep during hackathons

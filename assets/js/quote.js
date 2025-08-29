@@ -9,7 +9,9 @@ $(document).ready(async function(){
     success:  async (data) => {
         $("#q_text").text("“" + data.quote + "”");
         $("#q_author").text("~ " + data.author);
-        img_api_url = "https://openlibrary.org/search/authors.json?q=" + data.author
+        // remove parenthesis and their content from author string
+        author = data.author.replace(/\s*\(.*?\)\s*/g, "");
+        img_api_url = "https://openlibrary.org/search/authors.json?q=" + author
         await $.ajax({
             url: img_api_url,
             type: "GET",

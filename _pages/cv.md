@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-See my <a class = "btn btn--inverse" style = "text-decoration:none" href = "/files/cv_vito_scaraggi.pdf">Full CV</a> or read the highlights below.
+See my <a class = "btn btn--inverse" style = "text-decoration:none" href = "/files/cv_vito_scaraggi.pdf">Full CV</a> or read the short highlights below.
 
 Education
 ======

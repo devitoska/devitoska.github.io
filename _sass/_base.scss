@@ -61,18 +61,21 @@ html {
 
 .quote_bottom_2 {
 	display: flex;
+  align-items: center;
 	flex-direction: column;
 }
 
 #q_author_img {
 	width: 6em;
-	height: 5.5em;
+	height: 5.7em;
 }
 
 .quote_author {
 	margin-top: 4px;
 	font-style: italic;
 	color: $orange;
+  font-size: 0.9em;
+  padding: 1em 0em 1em 0em;
 }
 
 .quote_line_2 {

@@ -15,6 +15,7 @@ description              : &description "Hi, Vito here!"
 url                      : https://devitoska.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "devitoska/devitoska.github.io"
+base_path                 : "localhost:4000"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,19 +26,19 @@ author:
   name             : "Vito Scaraggi"
   pronouns         : "he/him"  
   bio              : "PhD candidate in Italian National Program 'AI for Society'"
-  location         : "Pisa, Italy"
+  #location         : "Pisa, Italy"
   employer         : "IIT-CNR / University of Pisa"
   uri              : # URL
   email            : "v.scaraggi@studenti.unipi.it"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=JABXOOUAAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0002-9243-0309"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Vito-Scaraggi-2?ev=hdr_xprf"
   scopus           : # URL
 
   # Repositories and software development

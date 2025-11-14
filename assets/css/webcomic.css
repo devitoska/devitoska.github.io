@@ -1,0 +1,109 @@
+/* Header and Title Styling */
+
+.header-container{
+    padding-top: 20px;
+}
+
+.title-container {
+    text-align: center; /* Centers the content (h1 and p) horizontally */
+    /* max-width: 800px;
+    margin: 0 auto; /* Centers the div itself */
+}
+
+.title-container h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.title-container p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+/* Slider Container */
+.slider-container {
+    max-width: 800px; /* Set a max width for the slider */
+    position: relative;
+    margin: 20px auto; /* Center the slider on the page */
+    margin-top: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden; /* Important for containing slides */
+    padding: 40px;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Position the "next button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background with a little opacity */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Dots/bullets/indicators container */
+.dots-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.comic_img{
+    width:100%;
+    max-width:600px;
+}

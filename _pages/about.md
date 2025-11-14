@@ -11,9 +11,11 @@ I'm a first-year Phd Student in the Italian National Program 'AI for Society' an
 
 * <b>Human-AI Collaboration</b>
 * <b>Neurosymbolic AI</b>
-* <b>Reinforcement Learning<b>
+* <b>Reinforcement Learning</b>
+* <b>Cybersecurity </b>
 
-In a summary, the main goal of my research is to enhance Human-AI collaboration to accomplish difficult tasks based on a combination of perception and reasoning skills (e.g. autonomous driving). My study explores neurosymbolic approaches as a better alternative to only-neural frameworks (so called "black box") in order to achieve model explainability, training efficiency and better generalization.
+
+In a summary, the main goal of my research is to enhance Human-AI collaboration to accomplish difficult tasks based on a combination of perception and reasoning skills. My study explores neurosymbolic approaches as a better alternative to only-neural frameworks (so called “black box”) in order to achieve model explainability, training efficiency and better generalization. Currently working on cybersecurity applications for SOCs.
 
 If you are an AI practitioner in this or a similar area, feel free to contact me via e-mail or connect on <a href = "https://www.linkedin.com/in/vitoscaraggi/">Linkedin</a>.
 

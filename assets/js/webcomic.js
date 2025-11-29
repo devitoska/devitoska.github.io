@@ -42,6 +42,27 @@ function showSlides(n) {
   // Update title and caption
   $(".comic_title").text("#" + comicData[slideIndex].id + " " + comicData[slideIndex].title);
   $(".comic_caption").text(comicData[slideIndex].caption);
+  // Update date and convert to format "DD Month YYYY"
+  let dateObj = new Date(comicData[slideIndex].date_);
+  // Month should be in short text format
+  let options = {year: 'numeric', month: 'short', day: 'numeric' };
+  $(".comic_date").text(dateObj.toLocaleDateString(undefined, options));
+  // Update references that are separated by ;
+  let refs = comicData[slideIndex].refs.split(";");
+  
+  let referencesHtml = "";
+  for (let i = 0; i < refs.length; i++) {
+    let ref = refs[i].trim();
+    if (ref.length > 0) {
+      referencesHtml += '<br>[' + (i+1) + '] <a href="' + ref + '" target="_blank">' + ref + '</a>';  
+    }
+  }
+
+  if (referencesHtml.length > 0) {
+    referencesHtml = "References: " + referencesHtml;
+  }
+  $(".comic_refs").html(referencesHtml);
+
   // Update image source
   $("#current_comic img").attr("src", comicData[slideIndex].image_url);
 }

@@ -1,7 +1,7 @@
 /* Header and Title Styling */
 
 .header-container{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .title-container {
@@ -11,12 +11,10 @@
 }
 
 .title-container h1 {
-    font-size: 1.8em;
     margin-bottom: 5px;
 }
 
 .title-container p {
-    font-size: 1.2em;
     margin-top: 0;
 }
 
@@ -106,4 +104,23 @@
 .comic_img{
     width:100%;
     max-width:600px;
+}
+
+.comic_title{
+    font-size: 1.8em;
+}
+
+.comic_caption{
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.comic_date{
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.comic_refs{
+    font-size: 0.8em;
+    margin-top: 10px;
 }

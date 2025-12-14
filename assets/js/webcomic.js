@@ -54,7 +54,15 @@ function showSlides(n) {
   for (let i = 0; i < refs.length; i++) {
     let ref = refs[i].trim();
     if (ref.length > 0) {
-      referencesHtml += '<br>[' + (i+1) + '] <a href="' + ref + '" target="_blank">' + ref + '</a>';  
+      // check if ref is a valid URL
+      try {
+        new URL(ref);
+        // If valid URL, make it a clickable link
+        referencesHtml += '<br>[' + (i+1) + '] <a href="' + ref + '" target="_blank">' + ref + '</a>';
+      } catch (_) {
+        // If not a valid URL, just display the text
+        referencesHtml += '<br>[' + (i+1) + '] ' + ref;
+      }  
     }
   }
 

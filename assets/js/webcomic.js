@@ -4,7 +4,7 @@ let slideIndex = 0;
 // check if current page is webcomic.html
 $(document).ready(async function(){
   await $.ajax({
-    url: "https://webcomic.scaraggiv.workers.dev/",
+    url: "https://vitoscaraggi.it/webcomic/all",
     method: "GET",
     dataType: "json",
     success: function(data) {
@@ -47,22 +47,25 @@ function showSlides(n) {
   // Month should be in short text format
   let options = {year: 'numeric', month: 'short', day: 'numeric' };
   $(".comic_date").text(dateObj.toLocaleDateString(undefined, options));
-  // Update references that are separated by ;
-  let refs = comicData[slideIndex].refs.split(";");
+  // Update references
   
   let referencesHtml = "";
-  for (let i = 0; i < refs.length; i++) {
-    let ref = refs[i].trim();
-    if (ref.length > 0) {
-      // check if ref is a valid URL
-      try {
-        new URL(ref);
-        // If valid URL, make it a clickable link
-        referencesHtml += '<br>[' + (i+1) + '] <a href="' + ref + '" target="_blank">' + ref + '</a>';
-      } catch (_) {
-        // If not a valid URL, just display the text
-        referencesHtml += '<br>[' + (i+1) + '] ' + ref;
-      }  
+  // check if refs is a property of the comicData object
+  if (comicData[slideIndex].hasOwnProperty("refs")) {
+    let refs = comicData[slideIndex].refs;
+    for (let i = 0; i < refs.length; i++) {
+      let ref = refs[i].trim();
+      if (ref.length > 0) {
+        // check if ref is a valid URL
+        try {
+          new URL(ref);
+          // If valid URL, make it a clickable link
+          referencesHtml += '<br>[' + (i+1) + '] <a href="' + ref + '" target="_blank">' + ref + '</a>';
+        } catch (_) {
+          // If not a valid URL, just display the text
+          referencesHtml += '<br>[' + (i+1) + '] ' + ref;
+        }  
+      }
     }
   }
 

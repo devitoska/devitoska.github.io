@@ -43,7 +43,7 @@ function showSlides(n) {
   $(".comic_title").text("#" + comicData[slideIndex].id + " " + comicData[slideIndex].title);
   $(".comic_caption").text(comicData[slideIndex].caption);
   // Update date and convert to format "DD Month YYYY"
-  let dateObj = new Date(comicData[slideIndex].date_);
+  let dateObj = new Date(comicData[slideIndex].date);
   // Month should be in short text format
   let options = {year: 'numeric', month: 'short', day: 'numeric' };
   $(".comic_date").text(dateObj.toLocaleDateString(undefined, options));

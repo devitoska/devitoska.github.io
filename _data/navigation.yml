@@ -24,8 +24,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Webcomic"
-    url: /webcomic/
+  #- title: "Webcomic"
+  #  url: /webcomic/
     
   #- title: "Guide"
   #  url: /markdown/

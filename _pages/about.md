@@ -7,13 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first-year Phd Student in the Italian National Program 'AI for Society' and a research fellow in the <a href = "https://ui.iit.cnr.it/en/">Ubiquitous Internet</a> Lab at IIT-CNR in Pisa, working on the following topics:
+I'm a PhD Student in the Italian National Program 'AI for Society' and a research fellow in the <a href = "https://ui.iit.cnr.it/en/">Ubiquitous Internet</a> Lab at IIT-CNR in Pisa, working on the following topics:
 
 * <b>Human-AI Collaboration</b>
 * <b>Neurosymbolic AI</b>
-* <b>Reinforcement Learning</b>
-* <b>Cybersecurity </b>
-
 
 In a summary, the main goal of my research is to enhance Human-AI collaboration to accomplish difficult tasks based on a combination of perception and reasoning skills. My study explores neurosymbolic approaches as a better alternative to only-neural frameworks (so called “black box”) in order to achieve model explainability, training efficiency and better generalization. Currently working on cybersecurity applications for SOCs.
 

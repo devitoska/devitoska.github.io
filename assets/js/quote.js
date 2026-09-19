@@ -22,11 +22,11 @@ $(document).ready(async function(){
                     img_url = "https://covers.openlibrary.org/a/olid/" + olid + "-M.jpg";
                     $("#q_author_img").attr("src", img_url);
                 } else {
-                    $("#q_author_img").attr("src", "https://vitoscaraggi.it/images/bio-photo.jpg");
+                    $("#q_author_img").attr("src", "https://vitoscaraggi.it/images/profile.jpg");
                 }
             },
             error: function(e){
-                $("#q_author_img").attr("src", "https://vitoscaraggi.it/images/bio-photo.jpg");
+                $("#q_author_img").attr("src", "https://vitoscaraggi.it/images/profile.jpg");
             }, 
         });
     },

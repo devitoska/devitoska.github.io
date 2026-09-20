@@ -23,7 +23,7 @@ Here’s today’s inspiration I’d like to share with you:
   <div class="quote_bottom">
       <div id="q_text"></div>
       <div class="quote_bottom_2">
-        <img id="q_author_img" src="/images/profile.jpg">
+        <img id="q_author_img" src="/images/author_not_found.jpg">
         <div style="flex: 1;"></div>
         <div id="q_author" class="quote_author"></div> 
       </div>    

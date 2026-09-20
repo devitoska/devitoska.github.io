@@ -1,7 +1,7 @@
 //quote script
 // ajax get
 $(document).ready(async function(){
-    url = "https://vitoscaraggi.it/quote"
+    url = "https://site.vitoscaraggi.com/quote"
     await $.ajax({
     url: url,
     type: "GET",
@@ -22,11 +22,11 @@ $(document).ready(async function(){
                     img_url = "https://covers.openlibrary.org/a/olid/" + olid + "-M.jpg";
                     $("#q_author_img").attr("src", img_url);
                 } else {
-                    $("#q_author_img").attr("src", "https://vitoscaraggi.it/images/profile.jpg");
+                    $("#q_author_img").attr("src", "https://site.vitoscaraggi.com/images/profile.jpg");
                 }
             },
             error: function(e){
-                $("#q_author_img").attr("src", "https://vitoscaraggi.it/images/profile.jpg");
+                $("#q_author_img").attr("src", "https://site.vitoscaraggi.com/images/profile.jpg");
             }, 
         });
     },

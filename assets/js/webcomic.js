@@ -4,7 +4,7 @@ let slideIndex = 0;
 // check if current page is webcomic.html
 $(document).ready(async function(){
   await $.ajax({
-    url: "https://vitoscaraggi.it/webcomic/all",
+    url: "https://site.vitoscaraggi.com/webcomic/all",
     method: "GET",
     dataType: "json",
     success: function(data) {
